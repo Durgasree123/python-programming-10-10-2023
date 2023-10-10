@@ -1,0 +1,7 @@
+p=int(input("enter principal_amt:"))
+t=int(input("enter time:"))
+r=int(input("enter :"))
+n=int(input("enter no. of months:"))
+si=p*t*r/100
+emi=si+p/n
+print(emi)

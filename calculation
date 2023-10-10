@@ -1,0 +1,11 @@
+sno=int(input("enter studet roll.no:"))
+sname=str(input("enter student name:"))
+group=str(input("enter group name:"))
+no=int(input("enter no. of subjects:"))
+m1=int(input("marks of python:"))
+m2=int(input("marks of java:"))
+m3=int(input("marks of os:"))
+tot= m1+m2+m3
+avg=tot/no
+print(tot)
+print(avg)
